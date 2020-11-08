@@ -15,7 +15,7 @@ async function loginFormHandler(event) {
     });
 
     if (response.ok) {
-      document.location.replace('/salesHistory/');
+      document.location.replace('/');
     } else {
       alert(response.statusText);
     }
@@ -41,7 +41,7 @@ async function signupFormHandler(event) {
     });
 
     if (response.ok) {
-      document.location.replace('/newTransaction/');
+      document.location.replace('/');
     } else {
       alert(response.statusText);
     }
